@@ -1,0 +1,44 @@
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.200), rgb(0, 0, 0, 0.200)),
+        url(../Images/nebula.jpg);
+}
+
+#player {
+    height: 3em;
+    width: 3em;
+    position: absolute;
+    left: 45vw;
+    top: 50vh;
+}
+
+#enemy {
+    height: 4em;
+    width: 4em;
+    position: absolute;
+}
+
+#projectile {
+    height: 1.5em;
+    width: 1.5em;
+    position: absolute;
+}
+
+#score {
+    margin: 0;
+    display: inline-block;
+    font-size: 2em;
+    color: white;
+}
+
+#life {
+    margin: 0;
+    font-size: 2em;
+    color: white;
+    float: right;
+}
